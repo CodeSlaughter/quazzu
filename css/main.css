@@ -19,6 +19,17 @@
     padding-top: 100px;
 }
 
+.main-header-inner {
+    background: url(../img/background.jpg);
+    background-position: center;
+    min-height: 350px;
+    color: #fff
+}
+
+.main-header-inner .showcase {
+    padding-top: 50px;
+}
+
 .active-link {
     color: #d847f1;
     font-weight: bold
@@ -54,6 +65,10 @@
 
 .section-podcast .primary-overlay {
     background: rgba(112, 81, 176, 0.9);
+}
+
+.tabs .indicator {
+    background-color: #6a1b98 !important
 }
 
 @media (max-width: 500px) {
